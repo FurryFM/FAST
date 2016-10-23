@@ -1,0 +1,24 @@
+Furry's Auto-Split Timer (FAST) Installation Instructions:
+----------------------------------------------------------
+
+You will need
+
+* LiveSplit software
+* ePSXe 1.9.25
+* A rom of Mega Man Legends (J)
+* Script.ASL (included)
+* Layout.LSL (included)
+* Splits.LSS (included) (optional, you can make your own splits)
+
+
+Step 1: Run LiveSplit as administrator.
+
+Step 2: Open Layout.LSL in LiveSplit.
+
+Step 3: Open Splits.LSS if you don't have any saved splits. Skip this step if you already have splits.
+
+Step 4: Go to Edit Layout in LiveSplit. Double click Scriptable Auto Splitter. Set the source path for the script to the Script.ASL file. Make sure all three check boxes are checked.
+
+Step 5: Run ePSXe 1.9.25 as administrator. Load the rom of Mega Man Legends (J).
+
+If the splitter installed correctly, the timer will automatically start when you start a new game.

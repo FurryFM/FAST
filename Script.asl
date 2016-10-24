@@ -14,6 +14,7 @@ state("ePSXe")
 	uint Zenny: "ePSXe.exe", 0x74D51C;
 	byte PoliceHP: "ePSXe.exe", 0x7E81CE;
 	byte BankHP: "ePSXe.exe", 0x7E84DA;
+	uint FloorID: "ePSXe.exe", 0x740C50;
 	//uint LARM: "ePSXe.exe", 0x74F324;
 	//uint RARM: "ePSXe.exe", 0x74F310;
 	//uint LCAN: "ePSXe.exe", 0x74F37C;
@@ -60,8 +61,8 @@ update
 		}
 		if (vars.lastSplit == 4) 
 		{
-			vars.TopLine = "Police HP: " + current.PoliceHP + "/75";
-			vars.BottomLine = "Bank HP: " + current.BankHP + "/75";
+			vars.TopLine = "";
+			vars.BottomLine = "";
 		}
 		if (vars.lastSplit == 5) 
 		{
@@ -70,9 +71,8 @@ update
 		}
 		if (vars.lastSplit == 6) 
 		{
-			vars.Glory = current.Zenny + 928;
-			vars.TopLine = "Zenny: " + current.Zenny + "0z";
-			vars.BottomLine = "w/ Glory Hole: " + vars.Glory + "0z";
+			vars.TopLine = "";
+			vars.BottomLine = "";
 		}
 		if (vars.lastSplit == 7) 
 		{
@@ -170,7 +170,7 @@ split
 		vars.splittime = current.IGT;
         	return true;
     	}
-	if(current.BossHP < old.BossHP && current.BossHP == 0 && current.Guy == 3 && vars.lastSplit == 10) 
+	if(current.FloorID == 2148136008 && current.BankHP == 0 && vars.lastSplit == 10) 
     	{
    	    	vars.lastSplit = 11;
 		vars.splittime = current.IGT;

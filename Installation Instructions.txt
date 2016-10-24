@@ -6,19 +6,22 @@ You will need
 * LiveSplit software
 * ePSXe 1.9.25
 * A rom of Mega Man Legends (J)
+* LiveSplit.ASLVarViewer.UI.dll (included)
 * Script.ASL (included)
 * Layout.LSL (included)
 * Splits.LSS (included) (optional, you can make your own splits)
 
 
-Step 1: Run LiveSplit as administrator.
+Step 1: Place LiveSplit.ASLVarViewer.UI.dll in the components folder in your LiveSplit directory.
 
-Step 2: Open Layout.LSL in LiveSplit.
+Step 2: Run LiveSplit as administrator.
 
-Step 3: Open Splits.LSS if you don't have any saved splits. Skip this step if you already have splits.
+Step 3: Open Layout.LSL in LiveSplit.
 
-Step 4: Go to Edit Layout in LiveSplit. Double click Scriptable Auto Splitter. Set the source path for the script to the Script.ASL file. Make sure all three check boxes are checked.
+Step 4: Open Splits.LSS if you don't have any saved splits. Skip this step if you already have splits.
 
-Step 5: Run ePSXe 1.9.25 as administrator. Load the rom of Mega Man Legends (J).
+Step 5: Go to Edit Layout in LiveSplit. Double click Scriptable Auto Splitter. Set the source path for the script to the Script.ASL file. Make sure all three check boxes are checked.
+
+Step 6: Run ePSXe 1.9.25 as administrator. Load the rom of Mega Man Legends (J).
 
 If the splitter installed correctly, the timer will automatically start when you start a new game.

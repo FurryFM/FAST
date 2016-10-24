@@ -1,6 +1,18 @@
 Furry's Auto-Split Timer (FAST) Installation Instructions:
 ----------------------------------------------------------
 
+Sections
+----------------------------------------------------------
+A. Full Timer Installation
+B. Standalone Timer Installation
+
+----------------------------------------------------------
+A. Full Timer Installation
+----------------------------------------------------------
+
+The full timer contains all the auto-splitting functionality.
+
+
 You will need:
 
 * LiveSplit software
@@ -25,6 +37,30 @@ Step 5: Go to Edit Layout in LiveSplit. Double click Scriptable Auto Splitter. S
 Step 6: Run ePSXe 1.9.25 as administrator. Load the rom of Mega Man Legends (J).
 
 If the splitter installed correctly, the timer will automatically start when you start a new game. The timer will reflect IGT and not real time. It will automatically record all the splits in the includeded Splits.LSS file. It will also automatically reset if you die or manually reset the game.
+
+----------------------------------------------------------
+B. Standalone Timer Installation
+----------------------------------------------------------
+
+The standalone timer contains no auto-splitting functionality. It will count IGT elapsed since the start of the timer.
+
+
+You will need:
+
+* LiveSplit software
+* ePSXe 1.9.25
+* A rom of Mega Man Legends (J)
+* ScriptStandalone.ASL (included)
+* StandaloneLayout.LSL (included)
+
+
+Step 1: Run LiveSplit as administrator.
+
+Step 2: Open StandaloneLayout.LSL in LiveSplit.
+
+Step 3: Go to Edit Layout in LiveSplit. Double click Scriptable Auto Splitter. Set the source path for the script to the Script.ASL file. Make sure all three check boxes are checked.
+
+Step 4: Run ePSXe 1.9.25 as administrator. Load the rom of Mega Man Legends (J). Start the timer manually to view the IGT elapsed since the timer's start.
 
 Have fun and good luck!
 

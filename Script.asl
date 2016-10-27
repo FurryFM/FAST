@@ -47,6 +47,7 @@ update
 {
 
 	vars.delay = current.IGT - vars.splittime;
+	vars.Zenny = "Zenny: " + current.Zenny + "0z";
 	
 		
 		if (vars.lastSplit == 2) 

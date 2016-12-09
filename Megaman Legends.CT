@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="19">
+  <Forms>
+    <UDF1 Class="TCEForm" Encoding="Ascii85">b7Ej%2nldAU:MM2b.}cxWeIh0Gi32eO*Ft]WMuP5%{mcIVgA6t9Fkwal+{5QnNpI$=7,zGoLEqjnV-i7R=ffx00</UDF1>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>66</ID>
+      <Description>"Randoms"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"R(1-2)"</Description>
+          <LastState Value="12345" RealAddress="00A946B0"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>A946B0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>75</ID>
+          <Description>"R(3-4)"</Description>
+          <LastState Value="0" RealAddress="00A946B2"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>A946B2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>70</ID>
+          <Description>"R1"</Description>
+          <LastState Value="57" RealAddress="00A946B0"/>
+          <VariableType>Byte</VariableType>
+          <Address>ePSXe.exe+6946B0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>71</ID>
+          <Description>"R2"</Description>
+          <LastState Value="48" RealAddress="00A946B1"/>
+          <VariableType>Byte</VariableType>
+          <Address>ePSXe.exe+6946B1</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>72</ID>
+          <Description>"R3 (Clap/Missiles)"</Description>
+          <LastState Value="0" RealAddress="00A946B2"/>
+          <VariableType>Byte</VariableType>
+          <Address>ePSXe.exe+6946B2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>73</ID>
+          <Description>"R4"</Description>
+          <LastState Value="0" RealAddress="00A946B3"/>
+          <VariableType>Byte</VariableType>
+          <Address>ePSXe.exe+6946B3</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>78</ID>
+      <Description>"Megaman"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"Position"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>14</ID>
+              <Description>"X position"</Description>
+              <LastState Value="494565376" RealAddress="00B40BAC"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ePSXe.exe+740BAC</Address>
+              <Hotkeys>
+                <Hotkey>
+                  <Action>Increase Value</Action>
+                  <Keys/>
+                  <Value>50000000</Value>
+                  <ID>0</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>79</ID>
+              <Description>"Y Position"</Description>
+              <LastState Value="65535" RealAddress="00B40BB2"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>ePSXe.exe+740BB2</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18</ID>
+              <Description>"Z position"</Description>
+              <LastState Value="1345071872" RealAddress="00B40BB4"/>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ePSXe.exe+740BB4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>10</ID>
+              <Description>"Rotation"</Description>
+              <LastState Value="3424" RealAddress="00B40BE6"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>ePSXe.exe+740BE6</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>13</ID>
+              <Description>"Camera Rotation"</Description>
+              <LastState Value="1376" RealAddress="00B2F348"/>
+              <VariableType>2 Bytes</VariableType>
+              <Address>ePSXe.exe+72F348</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>80</ID>
+          <Description>"Buster"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>51</ID>
+              <Description>"Volley Shots"</Description>
+              <LastState Value="18" RealAddress="00B41092"/>
+              <VariableType>Byte</VariableType>
+              <Address>ePSXe.exe+741092</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>6</ID>
+              <Description>"Power"</Description>
+              <LastState Value="7" RealAddress="00B4108C"/>
+              <VariableType>Byte</VariableType>
+              <Address>ePSXe.exe+74108C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>81</ID>
+              <Description>"Energy"</Description>
+              <LastState Value="7" RealAddress="00B4108D"/>
+              <VariableType>Byte</VariableType>
+              <Address>B4108D</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>82</ID>
+              <Description>"Range"</Description>
+              <LastState Value="7" RealAddress="00B4108E"/>
+              <VariableType>Byte</VariableType>
+              <Address>B4108E</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>83</ID>
+              <Description>"Rapid"</Description>
+              <LastState Value="7" RealAddress="00B4108F"/>
+              <VariableType>Byte</VariableType>
+              <Address>B4108F</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>77</ID>
+          <Description>"Megaman HP"</Description>
+          <LastState Value="80" RealAddress="00B40BFE"/>
+          <VariableType>Byte</VariableType>
+          <Address>ePSXe.exe+740BFE</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>84</ID>
+          <Description>"Death Trigger"</Description>
+          <LastState Value="0" RealAddress="00B40BFF"/>
+          <VariableType>Binary</VariableType>
+          <BitStart>0</BitStart>
+          <BitLength>1</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>B40BFF</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"Special Ammo"</Description>
+          <LastState Value="24" RealAddress="00B410E2"/>
+          <VariableType>Byte</VariableType>
+          <Address>ePSXe.exe+7410E2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"Zenny"</Description>
+          <LastState Value="0" RealAddress="00B4D51C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+74D51C</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>62</ID>
+      <Description>"Red Flyer HP"</Description>
+      <LastState Value="0" RealAddress="00B2AB54"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+72AB54</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>63</ID>
+      <Description>"Blue Flyer HP"</Description>
+      <LastState Value="0" RealAddress="00B2AF14"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+72AF14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"Yellow Flyer HP"</Description>
+      <LastState Value="0" RealAddress="00B2B2D4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+72B2D4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>8</ID>
+      <Description>"Randomizer"</Description>
+      <LastState Value="22" RealAddress="00B2F544"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+72F544</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"Ship Stop"</Description>
+      <LastState Value="0" RealAddress="00B4D580"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74D580</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>20</ID>
+      <Description>"Ship HP"</Description>
+      <LastState Value="0" RealAddress="00B4D55C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74D55C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"No description"</Description>
+      <LastState Value="50331650" RealAddress="00B2AE30"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+72AE30</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"Barrier 2"</Description>
+      <LastState Value="2149140592" RealAddress="00BE865C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+7E865C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"No description"</Description>
+      <LastState Value="17990" RealAddress="00B2F2F4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+72F2F4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"Barrier"</Description>
+      <LastState Value="2149140688" RealAddress="00BE82C0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+7E82C0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>45</ID>
+      <Description>"Balcon HP"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"Right Arm"</Description>
+          <LastState Value="4294966791" RealAddress="00B4F310"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+74F310</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"Left Arm"</Description>
+          <LastState Value="0" RealAddress="00B4F324"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+74F324</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"Right Cannon"</Description>
+          <LastState Value="0" RealAddress="00B4F368"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+74F368</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"Left Cannon"</Description>
+          <LastState Value="4283826090" RealAddress="00B4F37C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+74F37C</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"Stats"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>0</ID>
+          <Description>"Frame Count"</Description>
+          <LastState Value="4177" RealAddress="00B4D50C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+74D50C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"Key Items"</Description>
+          <LastState Value="33" RealAddress="00B49E0C"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+749E0C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"Equipment Status"</Description>
+          <LastState Value="33554432" RealAddress="00B40CF8"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>ePSXe.exe+740CF8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"Game Lock"</Description>
+      <LastState Value="0" RealAddress="00B24440"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+724440</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>52</ID>
+      <Description>"Trigger Switch"</Description>
+      <LastState Value="0" RealAddress="00B49E28"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+749E28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>91</ID>
+      <Description>"Dogkick"</Description>
+      <LastState Value="8323199" RealAddress="00B38B24"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+738B24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>88</ID>
+      <Description>"OneFader"</Description>
+      <LastState Value="0" RealAddress="00B24458"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+724458</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>89</ID>
+      <Description>"No description"</Description>
+      <LastState Value="8323199" RealAddress="00B38B24"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+738B24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"No description"</Description>
+      <LastState Value="8323199" RealAddress="00B38B24"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+738B24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>93</ID>
+      <Description>"FIGT"</Description>
+      <LastState Value="103155" RealAddress="00B4D514"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74D514</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"RESET"</Description>
+      <LastState Value="196608" RealAddress="00B40B94"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>B40B94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="00B50644"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+750644</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"No description"</Description>
+      <LastState Value="41208" RealAddress="00B49DD8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+749DD8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19</ID>
+      <Description>"Boss HP"</Description>
+      <LastState Value="0" RealAddress="00B4EFDC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74EFDC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>120</ID>
+      <Description>"2b Boss HP"</Description>
+      <LastState Value="0" RealAddress="00B4EFDE"/>
+      <VariableType>2 Bytes</VariableType>
+      <Address>ePSXe.exe+74EFDE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Unique Floor ID"</Description>
+      <LastState Value="0" RealAddress="00B40C50"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+740C50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"Air Walking"</Description>
+      <LastState Value="0" RealAddress="00B40C04"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+740C04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>99</ID>
+      <Description>"PoliceHP"</Description>
+      <LastState Value="1" RealAddress="00BE81CE"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+7E81CE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>92</ID>
+      <Description>"Kick"</Description>
+      <LastState Value="0" RealAddress="00B243D8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+7243D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>98</ID>
+      <Description>"No description"</Description>
+      <LastState Value="33554433" RealAddress="00B4B518"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74B518</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>86</ID>
+      <Description>"Weapon Type"</Description>
+      <LastState Value="0" RealAddress="00B40D00"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+740D00</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Increase Value</Action>
+          <Keys/>
+          <Value>1</Value>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Decrease Value</Action>
+          <Keys/>
+          <Value>1</Value>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"Arm Type"</Description>
+      <LastState Value="0" RealAddress="00B40D02"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+740D02</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Increase Value</Action>
+          <Keys/>
+          <Value>1</Value>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Decrease Value</Action>
+          <Keys/>
+          <Value>1</Value>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>104</ID>
+      <Description>"No description"</Description>
+      <LastState Value="128" RealAddress="00B4109A"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+74109A</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>119</ID>
+      <Description>"Flag -1"</Description>
+      <LastState Value="144" RealAddress="00B243C4"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+7243C4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>87</ID>
+      <Description>"Flag"</Description>
+      <LastState Value="255" RealAddress="00B243E4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+7243E4</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Increase Value</Action>
+          <Keys>
+            <Key>38</Key>
+          </Keys>
+          <Value>1</Value>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Decrease Value</Action>
+          <Keys>
+            <Key>40</Key>
+          </Keys>
+          <Value>1</Value>
+          <ID>1</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>97</Key>
+          </Keys>
+          <Value>1</Value>
+          <ID>2</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>98</Key>
+          </Keys>
+          <Value>255</Value>
+          <ID>3</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Toggle Activation</Action>
+          <Keys>
+            <Key>99</Key>
+          </Keys>
+          <ID>4</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>118</ID>
+      <Description>"Flag 0"</Description>
+      <LastState Value="255" RealAddress="00B49D67"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+749D67</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>115</ID>
+      <Description>"Flag 2"</Description>
+      <LastState Value="152" RealAddress="00B49D68"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+749D68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>116</ID>
+      <Description>"Flag 3"</Description>
+      <LastState Value="38" RealAddress="00B49D69"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+749D69</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>117</ID>
+      <Description>"Flag 4"</Description>
+      <LastState Value="0" RealAddress="00B49D70"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+749D70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"Phantom Grab"</Description>
+      <LastState Value="0" RealAddress="00B40D14"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+740D14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>100</ID>
+      <Description>"Kick Storage"</Description>
+      <LastState Value="0" RealAddress="00B40D28"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+740D28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>101</ID>
+      <Description>"Momentum"</Description>
+      <LastState Value="0" RealAddress="00B40BD5"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+740BD5</Address>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>190</Key>
+          </Keys>
+          <Value>253</Value>
+          <ID>1</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Set Value</Action>
+          <Keys>
+            <Key>188</Key>
+          </Keys>
+          <Value>3</Value>
+          <ID>0</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>114</ID>
+      <Description>"Equipment"</Description>
+      <LastState Value="2" RealAddress="00B40CFB"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+740CFB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>102</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="00B40BD4"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+740BD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="00B40CAC"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+740CAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>105</ID>
+      <Description>"No description"</Description>
+      <LastState Value="127941888" RealAddress="00B4EF4C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74EF4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>106</ID>
+      <Description>"No description"</Description>
+      <LastState Value="24576" RealAddress="00B4EF54"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74EF54</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>107</ID>
+      <Description>"No description"</Description>
+      <LastState Value="33751040" RealAddress="00B4EF5C"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74EF5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>108</ID>
+      <Description>"Load???"</Description>
+      <LastState Value="33554432" RealAddress="00B2ECC0"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+72ECC0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>109</ID>
+      <Description>"No description"</Description>
+      <LastState Value="37" RealAddress="00B244B0"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+7244B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>110</ID>
+      <Description>"Pause???"</Description>
+      <LastState Value="515" RealAddress="00B4D500"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+74D500</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>111</ID>
+      <Description>"No description"</Description>
+      <LastState Value="9880" RealAddress="00B49D68"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>ePSXe.exe+749D68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>112</ID>
+      <Description>"No description"</Description>
+      <LastState Value="96" RealAddress="00B898FE"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+7898FE</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>113</ID>
+      <Description>"No description"</Description>
+      <LastState Value="252" RealAddress="00B89878"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+789878</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>121</ID>
+      <Description>"Boss Move"</Description>
+      <LastState Value="0" RealAddress="00B4EF79"/>
+      <VariableType>Byte</VariableType>
+      <Address>ePSXe.exe+74EF79</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <Comments>Info about this table:
+</Comments>
+  <LuaScript>function round(x)
+  return x&gt;=0 and math.floor(x+0.5) or math.ceil(x-0.5)
+end
+math.randomseed(os.time());
+st = os.time();
+et = 0
+
+while et&lt;60 do
+      et = os.time() - st
+      x=round(math.random()*7);
+      writeBytes(0xB4108C,x);
+      x=round(math.random()*7);
+      writeBytes(0xB4108E,x);
+      local volley=readBytes(0xB41092)
+      if volley == 0 then
+         x=round(math.random()*6);
+         writeBytes(0xB4108D,x);
+         x=round(math.random()*4);
+         writeBytes(0xB4108F,x);
+      end
+
+      local fade=readInteger(0xB24458)
+      if fade == 1 then
+         x=round(math.random()*13)
+         writeBytes(0xB40D00,x)
+         writeBytes(0xB40D02,x)
+      end
+end
+</LuaScript>
+</CheatTable>
